@@ -1,0 +1,12 @@
+CREATE DATABASE ruralsis;
+USE ruralsis;
+
+CREATE TABLE tb_item (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    item VARCHAR(20),
+    medida VARCHAR(10),
+    nome VARCHAR(30),
+    preco FLOAT,
+    quantidade INT,
+    situacao INT
+);
